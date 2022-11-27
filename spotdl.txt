@@ -1,0 +1,6 @@
+github: https://github.com/spotDL/spotify-downloader
+install: pip install spotdl
+
+im using: spotdl https://open.spotify.com/album/6QZhO5hRNEAwHVutNz6SyI?si=rc3x1KipR1OFcXy_ikR2cw --bitrate 320k
+
+parameter info: https://spotdl.readthedocs.io/en/latest/usage/

@@ -1,0 +1,6 @@
+Remove c608 subs = -bsf:v "filter_units=remove_types=6"
+Remove tg3x = -map_metadata -1 | https://stackoverflow.com/questions/53396133/how-to-remove-everything-but-video-and-stereo-audio-stream-from-video-with-ffmpe
+Put sub into mp4 = -c:s mov_text
+
+nvenc = -c:v h264_nvenc
+nvenc available presets = ffmpeg -h encoder=h264_nvenc

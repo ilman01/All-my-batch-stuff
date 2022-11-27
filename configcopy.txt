@@ -1,0 +1,11 @@
+-f mp4
+-f best
+--no-mtime
+
+yt-dlp.exe -f [number] --no-mtime https://www.youtube.com/watch?v=LVzMnZy-oWY
+
+yt-dlp.exe --list-formats
+
+
+
+youtube-dl.exe -f flac -f bestaudio -o E:\Youtube-dl-output --no-mtime https://www.youtube.com/playlist?list=OLAK5uy_kjva1FgjDuEhBbUMgWv8qsNtDHhFT-vJs

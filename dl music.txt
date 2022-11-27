@@ -1,0 +1,1 @@
+yt-dlp -x --continue --add-metadata --embed-thumbnail --xattrs -f 251 --audio-format flac --audio-quality 0 --metadata-from-title="%(artist)s - %(title)s" --prefer-ffmpeg -o "%(title)s.%(ext)s"

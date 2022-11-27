@@ -1,0 +1,1 @@
+ffmpeg -f lavfi -i movie=video.mp4[out0+subcc] -vn -an -codec:s subrip subtitle.srt
