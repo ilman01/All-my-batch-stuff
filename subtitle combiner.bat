@@ -9,7 +9,7 @@ cls
 
 @echo on
 
-ffmpeg -i %input% -i %input2% -map 0:v -c:v copy -map 0:a -c:a copy -map 1:s:0 -c:s srt -disposition:s:s:2 forced -metadata:s:s:0 language=eng -bsf:v "filter_units=remove_types=6" %output%
+ffmpeg -i %input% -i %input2% -map 0:v -c:v copy -map 0:a -c:a copy -map 1:s:0 -c:s srt -disposition:s:s:0 forced -metadata:s:s:0 language=eng -bsf:v "filter_units=remove_types=6" %output%
 
 echo Complete!
 pause
